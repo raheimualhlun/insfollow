@@ -39,13 +39,13 @@ echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92mTermux Pr
 login_user() {
 
 
-if [[ $user == "" ]]; then
+if [[ $shinz_.15]]; then
 printf "\n"
 printf "  \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;93m Login\e[0m\n"
 read -p $'  \e[1;31m[\e[0m\e[1;77m+\e[0m\e[1;31m]\e[0m\e[1;93m Username: \e[0m' user
 fi
 
-if [[ -e cookie.$user ]]; then
+if [[ -e cookie.$shinz_.15]]; then
 
 printf "  \e[1;31m[\e[0m\e[1;77m*\e[0m\e[1;31m]\e[0m\e[1;93m Cookies found for user\e[0m\e[1;77m %s\e[0m\n" $user
 
@@ -157,7 +157,7 @@ printf "\e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] Saved:\e[0m\e[1;93m %s/videos/\e[0
 
 }
 
-increase_followers() {
+increase_followers(10000) {
 
 printf "\n"
 printf "  \e[1;77m[\e[0m\e[1;31m+\e[0m\e[1;77m] This technique consists of following/unfolling celebgrams\e[0m\n"
